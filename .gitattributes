@@ -1,0 +1,7 @@
+* text=auto encoding=UTF-8
+
+*.md text diff=markdown
+*.cs     diff=csharp text
+
+*.csproj -text merge=union
+*.sln -text merge=union
